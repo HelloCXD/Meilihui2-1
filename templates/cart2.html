@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="data-spm" content="a2o1p">
+		<title>【我的魅力惠】订单查询 - 魅力惠官方网站</title>
+		<link rel="icon" href="https://cdn11.mei.com/images/ico/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="https://cdn11.mei.com/images/ico/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="https://cdn11.mei.com/images/ico/favicon.png" type="pngimage/png" />
+		<link href="/static/css/cart2/customer.css" rel="stylesheet" type="text/css" />
+		<link href="/static/css/cart2/comments_disabled.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+			#pageDiv a{width:400px;}
+		</style>
+	</head>
+	<body data-spm="8153056"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&muserid=2015201599900099578&pid=mm%5f26632550%5f22732015%5f76896135&clk1=8fc8a1be7d1f2cc10366ff9397ff7c29&&yunid=&&trid=&asid=AQAAAAB8iNlbWNLmDwAAAAC7+Y4efDK6YQ==&sidx=cVehgXyI2VtwAstMwkfEAmC6X/m5IU+M&ckx=wwwmeicomorderlist|wwwmeicomindexhtml",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+<script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&muserid=2015201599900099578&pid=mm%5f26632550%5f22732015%5f76896135&clk1=8fc8a1be7d1f2cc10366ff9397ff7c29&&yunid=&&trid=&asid=AQAAAAB8iNlbrsxIAAAAAADgTuHi2Q57+w==&sidx=cVehgXyI2VtwAstMwkfEAmC6X/m5IU+M&ckx=wwwmeicomorderlist|wwwmeicomindexhtml",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+<link href="https://cdn11.mei.com/css/base.css?v=1.5" rel="stylesheet" type="text/css">
+<link href="https://cdn11.mei.com/css/siloNavBar.css?v=1.3" rel="stylesheet" type="text/css">
+<style type="text/css">
+	a.myMlh:hover{color:red}
+</style>
+<!--ie7-->
+<meta http-equiv="x-ua-compatible" content="IE=EmulateIE7" >
+<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/jquery.blockUI.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/common/js.cookie.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/common/tracking.js?v=1.0"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/common/common.js?v=2.0"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/cart/addCart.js?v=1.4"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/login/poplogin_regist.js?v=1.1"></script>
+<script type="text/javascript">
+	$(function(){
+	var loginbaseUrl = $("#contextPath").val();
+		var html = '<li class="theLi">';
+					html += '<img class="youli" src="'+loginbaseUrl+'/images/zhuceyouli.gif" />';
+					html += '<a href="'+ loginbaseUrl +'/user/toregistpage" style="color: red;">注册有礼</a></li>';
+					html += '<li class="theLi"><span>|</span></li>';
+					html += '<li class="theLi">';
+					html += '<a onclick="toLogin()">登录</a></li>'
+	                html += '<li class="theLi"><span>|</span></li>';
+					html += '<li class="theLi">';
+					html += '<div class="pop_up">';
+					html += ' <div id="collect_tag_dialog" class="pop_up_box6" style="display:none;">';
+					html += '     <div class="box_top">';
+					html += '       <div class="top_img">';
+					html += '</div>';
+					html += '</div>';
+					html += '<div class="box_content">收藏成功!</div>';
+					html += '</div>';
+					html += '</div>';
+					html += '<a href='+loginbaseUrl+'/user/tologinpage>收藏</a>';
+					html += '</li>';
+					$("#ul_header").children().remove();
+					$("#ul_header").append(html);
+
+
+	});
+</script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/login/rememberPWD.js?v=1.5"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/jquery.jscroll.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/jquery.waterwheelCarousel.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/login/md5.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/home/close_popLayer.js"></script>
+
+<script type="text/javascript" src="http://g.tbcdn.cn/sj/securesdk/0.0.3/securesdk_v2.js" id="J_secure_sdk_v2" data-appkey="68756484"></script>
+
+
+
+<input type="hidden" id="contextPath" value=""/>
+<input type="hidden" id="basePath" value="http://www.mei.com"/>
+<input type="hidden" id="membereid" value=""/>
+<input type="hidden" id="plaintext" value=''/>
+<input type="hidden" id="sign" value=""/>
+<input type="hidden" id="bank" value=""/>
+<input type="hidden" id="hkBasePath" value="http://www.meihigo.hk"/>
+
+<!-- 小能 -->
+<input type="hidden" id="ntalkerparam" value=""/>
+<input type="hidden" id="ntalkertype" value=""/>
+<input type="hidden" id="xn_order_code" value=""/>
+<input type="hidden" id="xn_order_amt" value=""/>
+<input type="hidden" id="xn_glsCode" value=""/>
+<input type="hidden" id="xn_eventCode" value=""/>
+
+<!-- 随机数用来防止乱发短信，弹出的注册页面会用到 -->
+<input type="hidden" id="randomTelCheckCode" value=""/>
+
+<!--页面顶部1-->
+    <div class="header_container" name="header_container" id="header_container">
+        <!-- 当为交行魅力惠的时候,走上面的头部  -->
+           <div class="header">
+           <!--
+        	<a class="gls_100" href="http://www.mei.com/Hrbeforepage/PPSQ.html">100%正品保证</a>
+           -->
+            <div class="quick_access">
+                <div class="quick_access_left">
+                    <ul id="ul_header" data-spm="2028457">
+                		<input type='hidden' id='user_telphone' value='17712215717'>
+                		<input type='hidden' id='user_id' value='2015201599900099578'>
+                        <li class="theLi">
+                        	<a style="margin-left:12px" onclick="toLoginOut();">退出</a>
+                        </li>
+                        <li class="theLi"><span>|</span></li>
+                        <!--
+                        	<li class="theLi">每日<span class="red">9</span>点上新</li>
+                        -->
+                        <li class="theLi">
+                            <div class="pop_up">
+                                <div id="collect_tag_dialog" class="pop_up_box6" style="display:none;">
+                                    <div class="box_top">
+                                        <div class="top_img">
+                                        </div>
+                                    </div>
+                                    <div class="box_content">收藏成功!</div>
+                                </div>
+                            </div>
+                            <!--<a id="headermystow" href="">收藏</a>-->
+                            <a href="http://www.mei.com/PbMyStowe/brandCollection">收藏</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="quick_access_right">
+                    <ul>
+                    <!--
+                        <li>
+                            <div class="pop_up" style="display:none;" id="pop_up_weixin">
+                                <div class="pop_up_weixin" >
+                                    <img src="https://cdn11.mei.com/images/2d/wechat-2dcode.png" width="100" height="100">
+                                    <p>扫码关注微信</p>
+                                </div>
+                            </div>
+                            <a class="imglink_weibo" target="_blank" href="http://weibo.com/glamoursaleschina" onclick="clicksina();">新浪微博</a>
+                            <a class="imglink_weixin" onclick="$('#pop_up_weixin').show();" onmouseover="$('#pop_up_weixin').show();" onmouseout="$('#pop_up_weixin').hide();">微信</a>
+                        </li>
+                    	<li>|</li>
+                    	<li><a href="http://www.mei.com/invitefriends/invitePage">领取优惠券</a></li>
+                    	<li>|</li>
+                    -->
+                        <!--
+                        <li data-spm="2028460"><span onclick="javascript:NTKF.im_openInPageChat();goldlog.record('/mei.3.2','','','H1703622');" title="在线咨询" class="buybtn" style="cursor:pointer;">在线咨询</span></li>
+                        -->
+                        <li data-spm="2028460"><span id="online-customer" onclick="goldlog.record('/mei.3.2','','','H1703622');"  title="在线咨询" class="buybtn" style="cursor:pointer;">在线咨询</span></li>
+                        <li>|</li>
+                        <li>
+                            <div class="pop_up" id="mobilePop" style="display:none;">
+                                <div class="pop_up_app" >
+                                    <img src="https://cdn11.mei.com/images/QR_code.png">
+                                    <p>扫码下载APP</p>
+                                </div>
+                            </div>
+                            <a href="http://www.mei.com/app.html" onmouseover="$('#mobilePop').show();" onmouseout="$('#mobilePop').hide();">手机版</a>
+                        </li>
+                        <li>|</li>
+                        <li><a style="margin-left:10px;" class="imglink_weibo" target="_blank" href="http://weibo.com/glamoursaleschina" onclick="clicksina();">新浪微博</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="branding">
+                <a href="http://www.mei.com/index.html" class="logo" title="魅力惠MEI.COM 时尚奢品 限时折扣">魅力惠</a>
+                <a class="logo_slogan" style="cursor: default;">时尚奢品&nbsp; 限时折扣</a>
+                <div id="search_bar">
+                    <div class="clearfix">
+                        <div class="input_txt">
+                            <input id="searchTxt" value="" />
+                        </div>
+                        <div class="search_icon" id="searchBtn"></div>
+                    </div>
+                    <ul class="result">
+                        <!--
+                        <li class="clearfix">
+                           <span class="">Gucci 箱包女包</span>
+                           <span>约708件商品1</span>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+           </div>
+        </div>
+        <!--导航栏-->
+        <div class="nav_container" id="navBarId">
+        <div class="nav">
+            <div class="nav_right">
+                <div id="online-service" class="online-service"><span title="联系客服">在线客服</span></div>
+                <div class="shopping_bag" onclick="shoppingSkipBag();" onmouseenter="showSmallBag();" onmouseleave="hideSmallBag();" >
+                    <ul data-spm="2028450">
+                        <li class="shopping_quantity" id="shopping_quantity">0</li>
+                        <li>|</li>
+                        <li id="shopping_amount">¥0.00</li>
+                    </ul>
+                </div>
+
+                <div class="pop_up_shopping" id="pop_up_shopping" onmouseover="alwaysShow()" onmouseleave="hideSmallBag();">
+
+                </div>
+            </div>
+            <div class="header_menu" id="header_menu">
+                <input type="hidden" id="selectedSilo" value="">
+            	<ul data-spm="2028449">
+                	<li class="nav-li">
+                        <!--弹出二级菜单-->
+                        <!-- 判断silo里面的链接地址是否为空 -->
+                            <a class="theNav" style="color: red;" id="2013000100000000008"  href="http://www.mei.com/index.html" >首页</a>
+                    </li>
+                	<li class="nav-li">
+                        <!--弹出二级菜单-->
+
+                        <div class="pop_up" style="display: block;">
+                            <div class="pop_up_menu">
+                                <div class="submenu">
+                                    <p class="title">热门活动</p>
+                                    <ul>
+                                           <li><a href="http://www.mei.com/silo/women/36788-2120005100000001546-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">清仓日特惠&nbsp;女士连衣裙</a></li>
+                                           <li><a href="http://www.mei.com/silo/women/36786-2040204090000005850-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">清仓日特惠&nbsp;女士毛衣</a></li>
+                                           <li><a href="http://www.mei.com/silo/women/36787-2041204190000005655-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">清仓日特惠&nbsp;女士外套</a></li>
+                                           <li><a href="http://www.mei.com/silo/women/36784-2120005100000001545-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">清仓日特惠&nbsp;女士包袋</a></li>
+                                           <li><a href="http://www.mei.com/silo/women/36785-2121005100000001607-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">清仓日特惠&nbsp;女士鞋履</a></li>
+                                           <li><a href="http://www.mei.com/silo/women/36799-2042204290000005340-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">POLLINI&nbsp;意大利经典鞋履</a></li>
+                                           <li><a href="http://www.mei.com/silo/women/36891-2042204290000005357-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">OUDIFU 女装&nbsp;唤醒你的秋季衣橱</a></li>
+                                           <li><a href="http://www.mei.com/silo/women/36890-2042204290000005356-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">CHIARA FERRAGNI&nbsp;女鞋 闪闪亮亮的你</a></li>
+                                    </ul>
+                                    <p class="more"><a  href="http://www.mei.com/silo/women.html" >查看所有活动</a></p>
+                                </div>
+                                  <div class="submenu">
+                                    <p class="title">商品分类</p>
+                                    <ul class="submenu_ul">
+                                       <li><a href="http://www.mei.com/silo/women/1000000337-W-Clothing.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">服装</a></li>
+                                       <li><a href="http://www.mei.com/silo/women/1000000338-W-Shoes.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">鞋履</a></li>
+                                       <li><a href="http://www.mei.com/silo/women/1000000339-W-Bags.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">包袋</a></li>
+                                       <li><a href="http://www.mei.com/silo/women/1000000340-W-Jewelry&Watch.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">手表&首饰</a></li>
+                                       <li><a href="http://www.mei.com/silo/women/1000000341-W-Accessories.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">配饰</a></li>
+                                       <li><a href="http://www.mei.com/silo/women/1000000373-W-Underwear.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">内衣</a></li>
+                                       <li><a href="http://www.mei.com/silo/women/1192007900000000258-W-Eyewears.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">眼镜</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 判断silo里面的链接地址是否为空 -->
+                                                        <a class="theNav" id="2013000100000000001"  href="http://www.mei.com/silo/women.html" >女士</a>
+                    </li>
+                	<li class="nav-li">
+                        <!--弹出二级菜单-->
+
+                        <div class="pop_up" style="display: block;">
+                            <div class="pop_up_menu">
+                                <div class="submenu">
+                                    <p class="title">热门活动</p>
+                                    <ul>
+                                           <li><a href="http://www.mei.com/silo/men/36843-2121005100000001617-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">周三清仓专场&nbsp;男士秋冬必备卫衣</a></li>
+                                           <li><a href="http://www.mei.com/silo/men/36831-2120005100000001553-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">周三清仓专场&nbsp;男士秋冬必备裤装</a></li>
+                                           <li><a href="http://www.mei.com/silo/men/36422-2042204290000005263-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">NEIL BARRETT&nbsp;精致潮奢 冬日暖男</a></li>
+                                           <li><a href="http://www.mei.com/silo/men/36815-2040204090000005855-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">POLO RALPH LAUREN&nbsp;经典马球标质男必备</a></li>
+                                           <li><a href="http://www.mei.com/silo/men/36423-2121005100000001526-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">PESPOW&nbsp;冬日袭来 温暖羽绒</a></li>
+                                           <li><a href="http://www.mei.com/silo/men/36882-2121005100000001626-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">INITIAL&nbsp;轻剪裁男装</a></li>
+                                           <li><a href="http://www.mei.com/silo/men/36686-2121005100000001583-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SUPER.NATURAL &nbsp;秋冬运动潮-男士</a></li>
+                                           <li><a href="http://www.mei.com/silo/men/36685-2040204090000005834-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SUPER.NATURAL &nbsp;秋冬运动潮-女士</a></li>
+                                    </ul>
+                                    <p class="more"><a  href="http://www.mei.com/silo/men.html" >查看所有活动</a></p>
+                                </div>
+                                  <div class="submenu">
+                                    <p class="title">商品分类</p>
+                                    <ul class="submenu_ul">
+                                       <li><a href="http://www.mei.com/silo/men/1000000342-M-Clothing.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">服装</a></li>
+                                       <li><a href="http://www.mei.com/silo/men/1000000343-M-Shoes.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">鞋履</a></li>
+                                       <li><a href="http://www.mei.com/silo/men/1000000344-M-Accessories.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">配饰</a></li>
+                                       <li><a href="http://www.mei.com/silo/men/1000000370-M-Bags&Wallet.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">包袋钱包</a></li>
+                                       <li><a href="http://www.mei.com/silo/men/1000000371-M-Jewelry&Watch.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">手表&首饰</a></li>
+                                       <li><a href="http://www.mei.com/silo/men/1000000374-M-Underwear.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">内衣</a></li>
+                                       <li><a href="http://www.mei.com/silo/men/1192007900000000259-M-Eyewears.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">眼镜</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 判断silo里面的链接地址是否为空 -->
+                                                        <a class="theNav" id="2013000100000000002"  href="http://www.mei.com/silo/men.html" >男士</a>
+                    </li>
+                	<li class="nav-li">
+                        <!--弹出二级菜单-->
+
+                        <div class="pop_up" style="display: block;">
+                            <div class="pop_up_menu">
+                                <div class="submenu">
+                                    <p class="title">热门活动</p>
+                                    <ul>
+                                           <li><a href="http://www.mei.com/silo/cosmetics/36278-2040204090000005748-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">面膜专场&nbsp;敷出秋日水漾鲜肌</a></li>
+                                           <li><a href="http://www.mei.com/silo/cosmetics/35801-2040204090000005654-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">乳液面霜专场&nbsp;贵妇保养秘笈</a></li>
+                                           <li><a href="http://www.mei.com/silo/cosmetics/36720-2040204090000005840-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SHISEIDO PROFESSIONAL&nbsp;日本沙龙专业护理</a></li>
+                                           <li><a href="http://www.mei.com/silo/cosmetics/36719-2120005100000001532-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">NARS&nbsp;彩妆老法师 让你脸红心跳</a></li>
+                                           <li><a href="http://www.mei.com/silo/cosmetics/36706-2121005100000001588-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">CHANEL&nbsp;摩登女人 优雅彩妆</a></li>
+                                           <li><a href="http://www.mei.com/silo/cosmetics/35989-2042204290000005179-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">BIODERMA贝德玛（2件9折）&nbsp;关爱呵护肌肤健康</a></li>
+                                           <li><a href="http://www.mei.com/silo/cosmetics/35800-2120005100000001361-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">欧美大牌专场&nbsp;传承美肤经典</a></li>
+                                           <li><a href="http://www.mei.com/silo/cosmetics/36323-2042204290000005247-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">PHILIP B&nbsp;解锁护发大师的正确姿势</a></li>
+                                    </ul>
+                                    <p class="more"><a  href="http://www.mei.com/silo/cosmetics.html" >查看所有活动</a></p>
+                                </div>
+                                  <div class="submenu">
+                                    <p class="title">商品分类</p>
+                                    <ul class="submenu_ul">
+                                       <li><a href="http://www.mei.com/silo/cosmetics/1000000345-C-Skincare.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">护肤</a></li>
+                                       <li><a href="http://www.mei.com/silo/cosmetics/1000000346-C-Makeup.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">彩妆</a></li>
+                                       <li><a href="http://www.mei.com/silo/cosmetics/1000000347-C-Perfume.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">香氛</a></li>
+                                       <li><a href="http://www.mei.com/silo/cosmetics/1000000348-C-Body care.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">美体</a></li>
+                                       <li><a href="http://www.mei.com/silo/cosmetics/1000000349-C-Men’s Products.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">男士</a></li>
+                                       <li><a href="http://www.mei.com/silo/cosmetics/1000000369-C-Mask.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">面膜</a></li>
+                                       <li><a href="http://www.mei.com/silo/cosmetics/1000000372-C-Beauty Apparatus.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">美容仪</a></li>
+                                       <li><a href="http://www.mei.com/silo/cosmetics/1192007900000000260-C-Haircare.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">美发</a></li>
+                                    </ul>
+                                    <ul class="submenu_ul">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 判断silo里面的链接地址是否为空 -->
+                                                        <a class="theNav" id="2013000100000000003"  href="http://www.mei.com/silo/cosmetics.html" >美妆</a>
+                    </li>
+                	<li class="nav-li">
+                        <!--弹出二级菜单-->
+
+                        <div class="pop_up" style="display: block;">
+                            <div class="pop_up_menu">
+                                <div class="submenu">
+                                    <p class="title">热门活动</p>
+                                    <ul>
+                                           <li><a href="http://www.mei.com/silo/lifestyle/36808-2041204190000005664-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">RIMOWA&nbsp;德国百年经典旅行箱（特惠场）</a></li>
+                                           <li><a href="http://www.mei.com/silo/lifestyle/35881-2042204290000005156-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">VILLEROY&BOCH 德国唯宝&nbsp;高颜值瓷器专场</a></li>
+                                           <li><a href="http://www.mei.com/silo/lifestyle/36572-2120005100000001510-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">MORPHY RICHARDS&nbsp;英国厨房小家电</a></li>
+                                           <li><a href="http://www.mei.com/silo/lifestyle/35437-2120005100000001302-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">POA 浦&nbsp;气质艺术瓷器专场 398-60</a></li>
+                                           <li><a href="http://www.mei.com/silo/lifestyle/35752-2040204090000005641-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">WOOLTARA 澳洲羊毛羊绒&nbsp;秋冬保暖床品专场</a></li>
+                                           <li><a href="http://www.mei.com/silo/lifestyle/34673-2120005100000001139-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">IPHONE苹果配件&nbsp;周边装备精选 (新品同步上新）</a></li>
+                                           <li><a href="http://www.mei.com/silo/lifestyle/36363-2040204090000005764-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">BENEPOM&nbsp;韩国功能性记忆枕（2件8折 3件7折）</a></li>
+                                           <li><a href="http://www.mei.com/silo/lifestyle/36658-2041204190000005626-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">ROYALROSE&nbsp;法国床品 狂欢节专场 （2件8折）</a></li>
+                                    </ul>
+                                    <p class="more"><a  href="http://www.mei.com/silo/lifestyle.html" >查看所有活动</a></p>
+                                </div>
+                                  <div class="submenu">
+                                    <p class="title">商品分类</p>
+                                    <ul class="submenu_ul">
+                                       <li><a href="http://www.mei.com/silo/lifestyle/1000000351-L-Bedding.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">床品</a></li>
+                                       <li><a href="http://www.mei.com/silo/lifestyle/1000000352-L-Bath.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">卫浴</a></li>
+                                       <li><a href="http://www.mei.com/silo/lifestyle/1000000353-L-Kitchen&Dinning.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">厨具</a></li>
+                                       <li><a href="http://www.mei.com/silo/lifestyle/1000000354-L-Decor&Accessories.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">摆件</a></li>
+                                       <li><a href="http://www.mei.com/silo/lifestyle/1000000356-L-Food.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">食品</a></li>
+                                       <li><a href="http://www.mei.com/silo/lifestyle/1000000357-L-SmallMachine.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">家电</a></li>
+                                       <li><a href="http://www.mei.com/silo/lifestyle/1000000358-L-Travel.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">旅游</a></li>
+                                       <li><a href="http://www.mei.com/silo/lifestyle/1192007900000000140-L-Digitalproduct.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">3C数码产品</a></li>
+                                    </ul>
+                                    <ul class="submenu_ul">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 判断silo里面的链接地址是否为空 -->
+                                                        <a class="theNav" id="2013000100000000004"  href="http://www.mei.com/silo/lifestyle.html" >家居</a>
+                    </li>
+                	<li class="nav-li">
+                        <!--弹出二级菜单-->
+
+                        <div class="pop_up" style="display: block;">
+                            <div class="pop_up_menu">
+                                <div class="submenu">
+                                    <p class="title">热门活动</p>
+                                    <ul>
+                                           <li><a href="http://www.mei.com/silo/kids/36424-2041204190000005583-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">ELAND KIDS&nbsp;英伦风秋冬女童</a></li>
+                                           <li><a href="http://www.mei.com/silo/kids/35165-2041204190000005331-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">ELAND KIDS&nbsp;英伦风秋冬男童</a></li>
+                                           <li><a href="http://www.mei.com/silo/kids/36667-2041204190000005630-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SCHWARTZ&nbsp;（2件7折）法式设计童装男童秋冬专场</a></li>
+                                           <li><a href="http://www.mei.com/silo/kids/36666-2040204090000005830-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SCHWARTZ&nbsp;（2件7折）法式设计童装女童秋冬专场</a></li>
+                                           <li><a href="http://www.mei.com/silo/kids/33741-2120005100000000969-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">JUZI STORE&nbsp;经典童装</a></li>
+                                           <li><a href="http://www.mei.com/silo/kids/36135-2120005100000001426-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">B TOY&nbsp;比乐 创意环保玩具</a></li>
+                                           <li><a href="http://www.mei.com/silo/kids/36131-2040204090000005721-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SONIA RYKIEL&nbsp;（3件7折）秋冬童装精选</a></li>
+                                           <li><a href="http://www.mei.com/silo/kids/36130-2121005100000001462-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SIMONETTA&nbsp;（3件7折）秋季童装新品</a></li>
+                                    </ul>
+                                    <p class="more"><a  href="http://www.mei.com/silo/kids.html" >查看所有活动</a></p>
+                                </div>
+                                  <div class="submenu">
+                                    <p class="title">商品分类</p>
+                                    <ul class="submenu_ul">
+                                       <li><a href="http://www.mei.com/silo/kids/1000000359-K-Clothing.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">服装</a></li>
+                                       <li><a href="http://www.mei.com/silo/kids/1000000360-K-Shoe.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">鞋履</a></li>
+                                       <li><a href="http://www.mei.com/silo/kids/1000000361-K-Stationeries&Toys.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">玩具</a></li>
+                                       <li><a href="http://www.mei.com/silo/kids/1000000362-K-Mother&Baby products.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">母婴</a></li>
+                                       <li><a href="http://www.mei.com/silo/kids/1192007900000000111-K-Accessories.html" target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">配饰</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 判断silo里面的链接地址是否为空 -->
+                                                        <a class="theNav" id="2013000100000000005"  href="http://www.mei.com/silo/kids.html" >婴童</a>
+                    </li>
+                	<li class="nav-li">
+                        <!--弹出二级菜单-->
+                            <div class="crossIcon"></div><!-- 海外icon -->
+
+                        <div class="pop_up" style="display: block;">
+                            <div class="pop_up_menu1">
+                                <div class="submenu">
+                                    <p class="title">热门活动</p>
+                                    <ul>
+                                           <li><a href="http://www.mei.com/silo/crossborder/36334-2041204190000005564-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">GIORGIO ARMANI&nbsp;意大利风 低调奢华 美到发光【海外】</a></li>
+                                           <li><a href="http://www.mei.com/silo/crossborder/36867-2042204290000005354-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">周三清仓专场&nbsp;男士千元穿搭配饰指南【跨境】</a></li>
+                                           <li><a href="http://www.mei.com/silo/crossborder/36866-2041204190000005678-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">周三清仓专场&nbsp;女士千元包配指南【跨境】</a></li>
+                                           <li><a href="http://www.mei.com/silo/crossborder/36864-2120005100000001558-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">周三清仓专场&nbsp;女士千元穿搭指南【跨境】</a></li>
+                                           <li><a href="http://www.mei.com/silo/crossborder/36795-2120005100000001547-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">Canada Goose&nbsp;温暖你的整个冬季</a></li>
+                                           <li><a href="http://www.mei.com/silo/crossborder/36807-2041204190000005663-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">总有一款你要的&nbsp;男士配饰</a></li>
+                                           <li><a href="http://www.mei.com/silo/crossborder/36452-2040204090000005780-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">CELINE&LOEWE&CHLOE&JW&nbsp;时髦精不可以缺少的包袋</a></li>
+                                           <li><a href="http://www.mei.com/silo/crossborder/36553-2042204290000005288-event-event.html"  target="_blank"  style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">COACH&nbsp;18最新包袋 美式轻奢潮包 </a></li>
+                                    </ul>
+                                    <p class="more"><a  href="http://www.mei.com/silo/crossborder.html" >查看所有活动</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 判断silo里面的链接地址是否为空 -->
+                                                        <a class="theNav" id="2013000100000000011"  href="http://www.mei.com/silo/crossborder.html" >海外</a>
+                    </li>
+                	<li class="nav-li">
+                        <!--弹出二级菜单-->
+                        <!-- 判断silo里面的链接地址是否为空 -->
+                            <!-- href="#siloActivitiesContent"  -->
+
+                            <a class="theNav" id="2013000100000000006"  href="http://www.mei.com/index.html#siloActivitiesContent"  >即将推出</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+<!--页面顶部1 end-->
+
+<script>
+$(document).ready(function(){
+
+    	var $selectedSilo = $("#selectedSilo");
+    	if(typeof($selectedSilo) != "undefined"
+    			&& $selectedSilo != null && $selectedSilo!= ""){
+
+    		var $a = $selectedSilo.val();
+
+    		if($a != "" && $a != null){
+    			$("#header_menu .theNav").css("color","white");
+    			if($a != "abc"){
+    			   $("#"+$a).css("color","red");
+    			}
+    		}
+
+    	}
+
+  	   /**
+  	    * 鼠标悬停导航栏事件
+  	    */
+       $("#header_menu ul li").hover(
+	    	  function(){
+	    		  var $pop =  $(this).children(".pop_up").children(".pop_up_menu");
+	    		 // alert($pop.html());
+	    		  if($pop.length < 1){
+	    			  $pop = $(this).children(".pop_up").children(".pop_up_menu1");
+
+	    		  }
+	    		  $pop.show();
+	    	  },
+	    	  function(){
+	    		  var $pop =  $(this).children(".pop_up").children(".pop_up_menu");
+	    		  if(typeof($pop) == "undefined" ||
+	    				  (typeof($pop) != "undefined" && typeof($pop.html()) == "undefined")){
+	    			  $pop = $(this).children(".pop_up").children(".pop_up_menu1");
+	    		  }
+	    		  $pop.hide();
+	    	  }
+	       );
+  	   /**
+  	    * 加载时看是否是点即将开始的活动进来的
+  	    */
+       });
+
+       function categoryClick(silo_name_en,id,name) {
+    	   var url = "/silo/"+silo_name_en+"/"+id+"-"+name+".html";
+    	   window.open(url,"_blank","");
+    	   // document.location.href="/productList/list/"+sid+"_"+id+".html";
+	   }
+
+       function eventClick(code,urlKey,silo_name_en) {
+    	   var url = "/silo/"+silo_name_en+"/"+code+"-"+urlKey+"-event.html";
+    	   window.open(url,"_blank","");
+    	   //document.location.href="/event/list/"+id+"_"+urlKey+".html";
+	   }
+       /**
+        * 即将开始silo点击事件
+        */
+      function upComingAnchor(div_id,code) {
+    	   if(code == 6){
+    		   var $div = $("#"+div_id);
+    		   if(null != $div && typeof($div) != "undefined" ){
+       		    var t = $div.offset().top;
+       		    var h= t-60;
+       		    $("html,body").scrollTop(h);
+       	       }
+    	   }else{
+    		   window.location.href="/index.html?siloFlag=1";
+    	   }
+
+       }
+    </script>			<div class="wrapper">
+				<!-- 存放取消订单号 -->
+				<input type="hidden" id="concelOrderId">
+				<!-- 存放删除订单号 -->
+				<input type="hidden" id="deleteOrderId">
+				<!-- 存放order操作token -->
+                <input type="hidden" id="Order_CSRFToken" value="b85be343-6704-4c40-9770-168b645222aa">
+			    <div class="page">
+			        <div class="main col2-layout">
+			            <div class="col-main">
+			                <div class="myAccount">
+			                    <div class="tabNav orderNav tabNum5" data-spm="2038011">
+
+			                    		<span>所有订单</span>
+
+			                        	<a href="http://www.mei.com/order/list?orderStatusType=unpay">
+				                        	待付款
+					                        <sup class="num-unpaid" style="display: none">
+												0
+											</sup>
+				                        </a>
+
+			                        	<a href="http://www.mei.com/order/list?orderStatusType=undelivery">待发货
+					                        <sup class="num-shipping" style="display: none">
+												0
+											</sup>
+				                        </a>
+
+			                        	<a href="http://www.mei.com/order/list?orderStatusType=delivery">待收货
+					                        <sup class="num-shipping" style="display: none">
+												0
+											</sup>
+				                        </a>
+
+			                        	<a href="http://www.mei.com/order/list?orderStatusType=complete">配送完成
+					                        <sup class="num-shipping" style="display: none">
+												0
+											</sup>
+				                        </a>
+
+			                    </div>
+			                    <div class="orderList">
+			                    </div>
+
+			                    <!-- 分页 -->
+
+			                </div>
+			            </div>
+			            <div class="col-left">
+<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/colorbox.js"></script>
+<script type="text/javascript" src="https://cdn11.mei.com/js/mymei/customer.js"></script>
+  <script type='text/javascript'>
+    $(function(){
+   		// 获取用户头像和余额信息
+   		$.ajax({
+   			type:"POST",
+   		    url: $("#contextPath").val()+"/myMeiState/getUserMessege",
+   		    dataType: "json",
+   		    cache : false,
+   		    success: function (data) {
+                    var avatarImg = (data.imgServletPath != null && data.imgServletPath != '') ? data.imgServletPath : 'https://cdn11.mei.com/images/headImg_03_2.png';
+
+                    $(".user-avatar").find('> img').attr("src", avatarImg);
+  		    		$(".user-name").append(data.username);
+  		    		$(".user-name").attr("title",data.username);
+              if(data.balance >0 ){
+                $(".user-credit").show().children(".price").append(data.balance);
+
+                    var key=getCookie("popBox");
+                     if(key==='false'){
+                        $('#comfirmMessage').hide();
+                     }else{
+                        colorboxMsg('“账户余额”功能已停止使用。如需帮助，请致电客服热线：<span>400-664-6698</span>');
+                     }
+
+              }else{
+                return false;
+              }
+
+   		    },
+   		    error: function (XMLHttpRequest, textStatus, errorThrown) {
+   				//alert(errorThrown);
+   		    }
+   		});
+		// 左侧菜单栏的选中样式
+		var menuFlag = $("#menuFlag").text();
+		$(".current").removeClass("current");
+		$("#left_"+parseInt(menuFlag)).addClass("current");
+
+    $(".account-tips").on("mouseover",function(){
+      $(".popUp").show();
+    });
+     $(".account-tips").on("mouseout",function(){
+      $(".popUp").hide();
+    });
+
+      function setMyCookie(tips,value){
+          document.cookie=tips+"="+value+";path=/";
+       };
+
+      $('.btnCtrl').on('click',function(){
+          setMyCookie('popBox','false');
+       });
+
+      function colorboxMsg(message){
+        $("#comfirmMessage #title").html(message);
+        $.colorbox({
+              inline: true,
+              className:'user-popBox',
+              href: '#comfirmMessage',
+              onClosed: function() {
+                setMyCookie('popBox','false');  }
+          });
+      };
+
+	})
+</script>
+
+<div class="user-info">
+    <a href="/personInfo/showPersonInfo">
+        <p class="user-avatar">
+            <img src="https://cdn11.mei.com/images/headImg_03_2.png" alt="" />
+            <i class="cover"></i>
+        </p>
+        <p class="user-name" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"></p>
+    </a>
+
+ <p class="user-credit">账户余额：<span class="price">￥</span><span class="account-tips"><span class="popUp">“账户余额”功能已停止使用。如需帮助，请致电客服热线：<b>400-664-6698</b></span></span></p>
+ <div style="display:none">
+    <div class="myConfirm" id="comfirmMessage">
+        <p id="title" class="text"></p>
+        <div class="actions">
+            <a class="button btnCtrl btn-confirm">好的</a>
+        </div>
+    </div>
+</div>
+</div>
+ <p style="display:none" id="menuFlag">1</p>
+<dl class="left-nav">
+    <dt>我的订单</dt>
+    <dd>
+        <ul>
+            <li><a id="left_1" href="http://www.mei.com/myMeiOrders/myOrderList" class="current">所有订单</a></li>
+            <li><a id="left_2" href="http://www.mei.com/myMeiOrders/myOrderList?orderStatusType=4">待付款</a></li>
+            <li><a id="left_3" href="http://www.mei.com/myMeiOrders/myOrderList?orderStatusType=1">待发货</a></li>
+            <li><a id="left_4" href="http://www.mei.com/myMeiOrders/myOrderList?orderStatusType=2">已发货</a></li>
+            <li><a id="left_5" href="http://www.mei.com/myMeiOrders/myOrderList?orderStatusType=3">配送完成</a></li>
+            <li><a id="left_6" href="http://www.mei.com/myComment/myNotComment">购物评价</a></li>
+        </ul>
+    </dd>
+    <dt>我的收藏</dt>
+    <dd>
+        <ul>
+            <!--<li><a id="left_7" href="http://www.mei.com/PbMyStowe/goodsCollection">所有商品</a></li>-->
+
+            <li><a id="left_8" href="http://www.mei.com/PbMyStowe/brandCollection">所有品牌</a></li>
+        </ul>
+    </dd>
+    <!-- 交行隐藏 add by chenan 20160301 -->
+    <dt>我的售后</dt>
+    <dd>
+        <ul>
+            <li><a id="left_9" href="http://www.mei.com/rma/list">退货记录</a></li>
+        </ul>
+    </dd>
+    <dt>我的账户</dt>
+    <dd>
+        <ul>
+            <li><a id="left_10" href="http://www.mei.com/personInfo/showPersonInfo">账户信息</a></li>
+            <li><a id="left_11" href="http://www.mei.com/userAddress/userAddressshow">收货地址</a></li>
+            <li><a id="left_12" href="http://www.mei.com/myConponsMessage/intomyconpons">优惠券</a></li>
+        </ul>
+    </dd>
+</dl>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+
+<!--百度营销-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement('script');
+hm.src = '//hm.baidu.com/hm.js?637923d68e269543e1944f2ad9cf8388';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+         <div class="footer_container">
+           <div class="footer">
+            <div class="footer_advantage">
+                <ul data-spm="2028465">
+                <li><a class="a1">100%正品保证</a></li>
+                    <li><a class="a2" href="http://www.mei.com/myConponsMessage/DDPS.html">满688免运费</a></li>
+                    <li><a class="a3" href="http://www.mei.com/myConponsMessage/SHFW.html">7天无条件退货</a></li>
+                    <li><a class="a4" href="http://www.mei.com/myConponsMessage/aboutmyconpons.html">超值折扣</a></li>
+                    <li><a class="a5" href="http://www.mei.com/index.html#siloActivitiesContent">9点限时闪购</a></li>
+                    <li class="footer_advantage_right"><a class="a6" href="http://www.mei.com/Hrbeforepage/LXWM.html">400－664－6698</a></li>
+                </ul>
+            </div>
+            <p class="footer_link" data-spm="2028467">
+                <a  href="http://www.mei.com/Hrbeforepage/ZCZC.html">关于魅力惠</a>
+                <a href="http://www.mei.com/Hrbeforepage/aboutmyglamour.html">加入我们</a>
+                <a href="http://www.mei.com/Hrbeforepage/LXWM.html">联系我们</a>
+
+                <a href="http://www.mei.com/myConponsMessage/xszn.html">使用帮助</a>
+                <a href="http://www.mei.com/Hrbeforepage/USEGUIZE.html">使用规则</a>
+                <a href="http://www.mei.com/Hrbeforepage/YINSISM.html">隐私声明</a>
+                <a href="http://www.mei.com/siteMap.html">网站地图</a>
+            </p>
+            <p class="footer_copyright">
+            	<span>COPYRIGHT©2016  杭州魅俪信息技术有限公司版权所有</span>浙ICP备16004860号-1
+            </p>
+            <p class="footer_license">
+            	<span><a href="https://a.mei.com/wow/meilihui/act/gongshang" data-spm-protocol="i" target="_blank" rel="nofollow"><img src="https://cdn11.mei.com/images/icon_badge.png" width="35" height="36"></a></span>
+            	<!-- <a href="https://search.szfw.org/cert/l/CX20140721008853008583" target="_blank" rel="nofollow"><img src="https://cdn11.mei.com/images/icon_badge3.png" width="105" height="35"></a> -->
+            </p>
+            </div>
+            </div>
+ <!-- 注册成功优惠券弹框 -->
+ <div id="registPopUpPlane">
+    <div class="popBox">
+        <div class="textBox">
+            <h3>注册成功</h3>
+            <div class="newPeopleCoupon"></div>
+        </div>
+        <div class="couponBox">
+            <div class="couponListBox">
+                <div class="couponList clearfix">
+                </div>
+            </div>
+            <div class="couponTips">
+                <p>优惠券已放入：我的-优惠券里</p>
+            </div>
+            <a href="/newzone/newmembers.html" class="to-newmember">进入新人专区</a>
+            <a class="couponCloseBtn"></a>
+        </div>
+    </div>
+ </div>
+
+ <!--获取用户IP,用于屏蔽香港IP-->
+ <input type="hidden" id="ip" value="">
+
+      <script src="//g.alicdn.com/crm/alicare-dialog/0.0.4/include.js" charset="utf-8"></script>
+	<script>
+		var accessToken = "";
+		$.ajax({
+			type:"post",
+			datatype:"json",
+			async:false,
+			url:$("#contextPath").val()+'/xspace/getToken',
+			success:function(msg){
+				if(msg.errorNum == '0'){
+					accessToken = msg.token
+				}else{
+					console.log("获取用户的用户ID、用户名、是否Vip等信息失败！");
+				}
+
+			},
+			error:function(){
+			}
+		});
+
+	    window.alicareDialogAsyncInit = function(AlicareDialog) {
+	       var ad = new AlicareDialog({
+            container: {
+                selector: '#online-customer,.online-customer',
+                align: 'right'
+
+            },
+            position: {
+                bottom: 100 // 像素
+            },
+
+            tpl: '<div id="xiaomi-dialog" class="alicare-dialog-customized" style="display:none"><span>TEST</span>小蜜</div>',
+
+            'z-index': 999999,
+            from: 'mei',
+            accessToken:accessToken
+	        });
+
+	       ad.onRendered(function(ui) {
+		        var $layout = ui.layout;
+		        $layout.addEventListener('click', function(ev) {
+		           ad.ui.emit('openDialog');
+		        }, false);
+
+		    });
+
+	    }
+
+	    window.addEventListener('message',function(ev){
+        	console.log(JSON.parse(ev.data));
+        	console.log(ev.data);
+        	var errMsg = JSON.parse(ev.data);
+        	console.log(errMsg.code)
+        	if (errMsg.code == 102) {
+        		location.reload();
+        	}
+        });
+
+	    $("#online-customer,.online-customer").bind("click",function(){
+	        //从session里面取账号
+	        var islogin = isLogins();
+	        if(islogin=="nologin"){// 未登录则跳转登录
+	            var contextPath = $("#contextPath").val();
+			 	var d_url=document.location.href;
+			 	d_url = base64encode(d_url);
+			 	window.location.href = "/user/tologinpage?callbackUrl="+d_url;
+	        }else{// 登录则弹出小蜜
+	        	console.log('click')
+	            $("#xiaomi-dialog").click();
+	        }
+	    });
+
+        $("#online-service").on("click", function(){
+            $("#online-customer").trigger('click');
+        });
+        $("#onlineRma-btn").on("click", function() {
+            $("#online-customer").trigger('click');
+        });
+	</script>
+
+	<!--<script src="//g.alicdn.com/crm/alicare-dialog/0.0.4/include.js" charset="utf-8"></script>-->
+
+
+
+ <script type="text/javascript">
+
+    function correctPNG(){
+    var arVersion = navigator.appVersion.split("MSIE")
+
+    var version = parseFloat(arVersion[1])
+    if ((version >= 5.5) && (document.body.filters))
+    {
+       for(var j=0; j<document.images.length; j++)
+       {
+          var img = document.images[j]
+          var imgName = img.src.toUpperCase()
+          if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+          {
+             var imgID = (img.id) ? "id='" + img.id + "' " : ""
+             var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+             var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+             var imgStyle = "display:inline-block;" + img.style.cssText
+             if (img.align == "left") imgStyle = "float:left;" + imgStyle
+             if (img.align == "right") imgStyle = "float:right;" + imgStyle
+             if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+             var strNewHTML = "<span " + imgID + imgClass + imgTitle
+             + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";margin-top:-10px;"
+             + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+             + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>"
+             img.outerHTML = strNewHTML
+             j = j-1
+          }
+       }
+    }
+}
+$(function(){
+
+    /*判断是否新用户注册弹框*/
+    checkNewCustomerFlag();
+    $(document).on("click","#registPopUpPlane .coupon-item",function(){
+        window.location.href = $("#basePath").val()+"/myConponsMessage/intomyconpons";
+    });
+
+    /*关闭注册成功优惠券弹框*/
+    $(document).on("click",".couponCloseBtn",function(e){
+        e.preventDefault();
+        $("#registPopUpPlane").hide();
+    });
+});
+// 新用户注册优惠券弹框显示
+function checkNewCustomerFlag(){
+    var newCustomer =getCookie("glms_new");
+    setCookie("glms_new","");
+    if(newCustomer=="true"){
+        $("#registPopUpPlane").show();
+        giftInfo();
+        newCustomerCoupon();
+    }else{
+        $("#registPopUpPlane").hide();
+    }
+}
+
+function newCustomerCoupon(){
+    var currentPage=1;
+    var loginbaseUrl = $("#basePath").val();
+    var credential = getCookie("mlh_mei_credential");
+    if (credential) {
+        var params = {
+            credential: credential,
+            status: '1',
+            pageIndex: 1,
+            pageSize: 10
+        }
+        $.ajax({
+            type: 'GET',
+            dataType: 'json',
+            url:  loginbaseUrl + '/appapi/coupon/list/v3',
+            cache: false,
+            async: true,
+            data: params,
+            success: function(res) {
+                if (res.errorNum === '0') {
+                    var reslist=res.lists;
+                    if(reslist.length>0){
+                        var couponList= '';
+                        couponList = createCouponList(reslist);
+                        $("#registPopUpPlane").find(".couponList").html(couponList);
+
+                    }else{
+                        $("#registPopUpPlane").hide();
+                    }
+                }
+            },
+            error: function(){
+                $("#registPopUpPlane").hide();
+            }
+        });
+    }
+}
+
+function createCouponList(data){
+    var item = "";
+    console.log(data);
+    $.each(data,function(k,v){
+        item=item+'<div class="coupon-item clearfix"><div class="coupon">'+couponValueFormat(v.value)+'</div><div class="pop-coupon-info"><div class="rangedesc">'+v.rangeDesc+'</div><div class="coupondate">'+ v.getCouponDate  + ' - ' + v.validDate +'</div></div></div>';
+    });
+    console.log(item)
+    return item;
+}
+
+function couponValueFormat (val) {
+    if (val.indexOf('¥') !== -1) {
+    return '<em>¥</em>' + parseInt(val.replace(/[^0-9.]/g, ''));
+    } else if (val.indexOf('元') !== -1) {
+    return val.replace(/元.*/g, '');
+    } else {
+    return val.replace(/（.*/g, '');
+    }
+}
+
+function setCookie (name, value){
+    //设置名称为name,值为value的Cookie
+    var expdate = new Date();   //初始化时间
+    expdate.setTime(expdate.getTime() + 365*24*60*60*1000);   //时间
+    document.cookie = name+"="+value+";expires="+expdate.toGMTString()+";path=/";
+   //即document.cookie= name+"="+value+";path=/";   时间可以不要，但路径(path)必须要填写，因为JS的默认路径是当前页，如果不填，此cookie只在当前页面生效！~
+}
+function getCookie(cookie_name){
+
+    var str_allcookies = document.cookie;
+    var str_cookie_pos = str_allcookies.indexOf(cookie_name);   //索引的长度
+    // 如果找到了索引，就代表cookie存在，
+    // 反之，就说明不存在。
+    if (str_cookie_pos != -1)
+    {
+    // 把str_cookie_pos放在值的开始，只要给值加1即可。
+    str_cookie_pos += cookie_name.length + 1;      //这里我自己试过，容易出问题，所以请大家参考的时候自己好好研究一下。。。
+    var str_cookie_end = str_allcookies.indexOf(";", str_cookie_pos);
+    if (str_cookie_end == -1)
+    {
+    str_cookie_end = str_allcookies.length;
+    }
+    var str_value = unescape(str_allcookies.substring(str_cookie_pos, str_cookie_end)); //这里就可以得到你想要的cookie的值了。。。
+    }
+    return str_value;
+    }
+
+function giftInfo(){
+    var loginbaseUrl = $("#basePath").val();
+    $.ajax({
+        type: 'POST',
+        url:  loginbaseUrl + '/user/getRegistSuccTips',
+        cache: false,
+        async: true,
+        success: function(res) {
+            $("#registPopUpPlane").find(".newPeopleCoupon").html(res.registSuccTips);
+        },
+        error: function(){
+
+        }
+    });
+}
+//window.attachEvent("onload", correctPNG);
+</script>
+
+<!--[if lte IE 9]>
+<script>
+  //IE8 event banner link
+  jQuery(function($){
+    $('.theEventImg table').on('click',function(e){
+      window.location = $(this).parents('a').attr('href');
+    });
+  })
+</script>
+<![endif]-->
+<!--uji测试-->
+<!--<script src="http://a.tbcdn.cn/s/aplus_v2.js"></script>-->
+<!--//uji测试-->			<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/colorbox.js"></script>
+			<script type="text/javascript" src="https://cdn11.mei.com/js/mymei/comment-disable.js"></script>
+		<div class="no-display">
+		    <div class="myConfirm" id="myConfirm">
+		        <p class="title">你确认取消此订单吗？</p>
+		        <div class="actions">
+		            <a class="button btnCtrl btn-confirm">确认</a>
+		            <a class="button btnCtrl btn-cancel">取消</a>
+		        </div>
+		    </div>
+		</div>
+		<div class="no-display">
+		    <div class="myConfirm" id="myConfirmDelete">
+		        <p class="title">删除订单有可能影响当前订单的售后，确认要删除？</p>
+		        <div class="actions">
+		            <a class="button btnCtrl btn-confirm">确认</a>
+		            <a class="button btnCtrl btn-cancel">取消</a>
+		        </div>
+		    </div>
+		</div>
+		<div class="no-display">
+		    <div class="myConfirm" id="myConfirmFailed">
+		        <p class="title">订单取消失败，您的订单可能已发货，详情请联系客服。</p>
+		        <div class="actions">
+		            <a class="button btnCtrl btn-confirm">确定</a>
+		        </div>
+		    </div>
+		</div>
+		<div id="confirmStatusBox">
+			<span class="confirmtipsPanel">订单取消成功</span>
+      	</div>
+<div class="no-display">
+    <div id="commentsDisabled">
+        <div class="comments-disabled-tips">
+            <p>评论功能正在升级，如需评价<br>请前往魅力惠APP进行评价。</p>
+            <div class="qrcode"><img src="https://cdn11.mei.com/images/QR_code.png" alt=""></div>
+            <a class="to_close" id="closeCommentsDisabledTips">好的</a>
+        </div>
+    </div>
+</div>	</body>
+	<script type="text/javascript" src="https://cdn11.mei.com/js/mymei/order.js?v=1.4"></script>
+	<script type="text/javascript" src="https://cdn11.mei.com/js/jquery/colorbox.js"></script>
+</html>

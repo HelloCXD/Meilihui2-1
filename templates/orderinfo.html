@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单信息</title>
+    <link rel="stylesheet" href="/static/css/orderinfo.css">
+    <script type="text/javascript" src="{% static 'js/jquery-1.12.3.js' %}" ></script>
+    <script type="text/javascript" src="/static/js/orderinfo.js"></script>
+</head>
+<body>
+    <div class="orderinfo">
+        <h3>订单号: {{ order.identifier }}</h3>
+        <ul>
+            {% for orderGoods in order.ordergoods_set.all %}
+                <li>
+                    <div class="content-wrapper">
+                        <div class="img">
+                            <img src="{{ orderGoods.goods.src1 }}" alt="">
+                        </div>
+                        <div class="detail">
+                            <p class="name">
+                                {{ orderGoods.goods.title }}
+                            </p>
+                            <p class="price">
+                                ￥{{ orderGoods.goods.price }}
+                            </p>
+                            <p class="num">
+                                x{{ orderGoods.number }}
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+        <button class="btn btn-success" id="pay" identifier="{{ order.identifier }}">付款</button>
+    </div>
+</body>
+</html>

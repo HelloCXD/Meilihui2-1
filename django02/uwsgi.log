@@ -1,0 +1,234 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 19:29:41 2018] ***
+compiled with version: 5.4.0 20160609 on 08 November 2018 09:54:12
+os: Linux-4.4.0-130-generic #156-Ubuntu SMP Thu Jun 14 08:53:28 UTC 2018
+nodename: VM-0-6-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /var/www/Meilihui2/django02
+writing pidfile to uwsgi.pid
+detected binary path: /home/ubuntu/.virtualenvs/python3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /var/www/Meilihui2
+your processes number limit is 3300
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9000 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1161690
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1161690 pid: 32578 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32578)
+spawned uWSGI worker 1 (pid: 32580, cores: 1)
+Not Found: /
+[pid: 32580|app: 0|req: 1/1] 27.38.114.139 () {48 vars in 898 bytes} [Sun Nov 11 19:29:49 2018] GET / => generated 2024 bytes in 34 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 2/2] 27.38.114.139 () {42 vars in 792 bytes} [Sun Nov 11 19:30:04 2018] GET /meilihui/ => generated 36090 bytes in 34 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 3/3] 27.38.114.139 () {44 vars in 854 bytes} [Sun Nov 11 19:30:23 2018] GET /meilihui/index2/ => generated 20545 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/side_middle1.png
+[pid: 32580|app: 0|req: 4/4] 27.38.114.139 () {42 vars in 806 bytes} [Sun Nov 11 19:30:24 2018] GET /meilihui/static/img/side_middle1.png => generated 4635 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/guohui.png
+[pid: 32580|app: 0|req: 5/5] 27.38.114.139 () {42 vars in 794 bytes} [Sun Nov 11 19:30:24 2018] GET /meilihui/static/img/guohui.png => generated 4617 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/chengxin.png
+[pid: 32580|app: 0|req: 6/6] 27.38.114.139 () {42 vars in 798 bytes} [Sun Nov 11 19:30:24 2018] GET /meilihui/static/img/chengxin.png => generated 4623 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 7/7] 27.38.114.139 () {44 vars in 877 bytes} [Sun Nov 11 19:30:25 2018] GET /meilihui/goods/product2/ => generated 13516 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 8/8] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:28 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 9/9] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:29 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 10/10] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:29 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 11/11] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:29 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 12/12] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:30 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 13/13] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:33 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 14/14] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:34 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 15/15] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:35 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 16/16] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:35 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 17/17] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:35 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 18/18] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:35 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /subcart/
+[pid: 32580|app: 0|req: 19/19] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:30:48 2018] GET /subcart/?goodsid=product2 => generated 2083 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 20/20] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:31:11 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /subcart/
+[pid: 32580|app: 0|req: 21/21] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:31:12 2018] GET /subcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 22/22] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:31:13 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 23/23] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:31:51 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 24/24] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:32:07 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 25/25] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:32:08 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /addcart/
+[pid: 32580|app: 0|req: 26/26] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:32:09 2018] GET /addcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /subcart/
+[pid: 32580|app: 0|req: 27/27] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:32:09 2018] GET /subcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /subcart/
+[pid: 32580|app: 0|req: 28/28] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:32:10 2018] GET /subcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /subcart/
+[pid: 32580|app: 0|req: 29/29] 27.38.114.139 () {44 vars in 830 bytes} [Sun Nov 11 19:32:10 2018] GET /subcart/?goodsid=product2 => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/filemanager.cfm
+[pid: 32580|app: 0|req: 30/30] 71.6.200.217 () {34 vars in 517 bytes} [Sun Nov 11 20:13:39 2018] GET /cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/filemanager.cfm => generated 2246 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 31/31] 46.239.37.8 () {32 vars in 457 bytes} [Sun Nov 11 21:42:07 2018] GET / => generated 2027 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 32/32] 27.38.114.139 () {38 vars in 620 bytes} [Sun Nov 11 22:30:53 2018] GET /meilihui/ => generated 35997 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 33/33] 27.38.114.139 () {40 vars in 680 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/login/ => generated 3174 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/注册-登录页面.css
+[pid: 32580|app: 0|req: 34/34] 27.38.114.139 () {42 vars in 832 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/css/%E6%B3%A8%E5%86%8C-%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.css => generated 4692 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/jquery.idcode.css
+[pid: 32580|app: 0|req: 35/35] 27.38.114.139 () {42 vars in 784 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/css/jquery.idcode.css => generated 4638 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery-1.12.3.js
+[pid: 32580|app: 0|req: 36/36] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/js/jquery-1.12.3.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.cookie.js
+[pid: 32580|app: 0|req: 37/37] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/js/jquery.cookie.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/login.js
+[pid: 32580|app: 0|req: 38/38] 27.38.114.139 () {42 vars in 798 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/js/%E7%99%BB%E5%BD%95.js => generated 4623 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.idcode.js
+[pid: 32580|app: 0|req: 39/39] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/js/jquery.idcode.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/mei.png
+[pid: 32580|app: 0|req: 40/40] 27.38.114.139 () {42 vars in 812 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/img/mei.png => generated 4608 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/saomiao.jpg
+[pid: 32580|app: 0|req: 41/41] 27.38.114.139 () {42 vars in 820 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/img/saomiao.jpg => generated 4620 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/love.png
+[pid: 32580|app: 0|req: 42/42] 27.38.114.139 () {38 vars in 597 bytes} [Sun Nov 11 22:31:08 2018] GET /meilihui/static/img/love.png => generated 4611 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 32580|app: 0|req: 43/43] 27.38.114.139 () {38 vars in 563 bytes} [Sun Nov 11 22:31:08 2018] GET /favicon.ico => generated 2075 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 44/44] 27.38.114.139 () {42 vars in 771 bytes} [Sun Nov 11 22:31:19 2018] GET /meilihui/index2/ => generated 20554 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/side_middle1.png
+[pid: 32580|app: 0|req: 45/45] 27.38.114.139 () {42 vars in 831 bytes} [Sun Nov 11 22:31:19 2018] GET /meilihui/static/img/side_middle1.png => generated 4635 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/guohui.png
+[pid: 32580|app: 0|req: 46/46] 27.38.114.139 () {42 vars in 819 bytes} [Sun Nov 11 22:31:21 2018] GET /meilihui/static/img/guohui.png => generated 4617 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/chengxin.png
+[pid: 32580|app: 0|req: 47/47] 27.38.114.139 () {42 vars in 823 bytes} [Sun Nov 11 22:31:21 2018] GET /meilihui/static/img/chengxin.png => generated 4623 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 48/48] 27.38.114.139 () {42 vars in 769 bytes} [Sun Nov 11 22:31:26 2018] GET /meilihui/login/ => generated 3174 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/注册-登录页面.css
+[pid: 32580|app: 0|req: 49/49] 27.38.114.139 () {42 vars in 832 bytes} [Sun Nov 11 22:31:26 2018] GET /meilihui/static/css/%E6%B3%A8%E5%86%8C-%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.css => generated 4692 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/jquery.idcode.css
+[pid: 32580|app: 0|req: 50/50] 27.38.114.139 () {42 vars in 784 bytes} [Sun Nov 11 22:31:26 2018] GET /meilihui/static/css/jquery.idcode.css => generated 4638 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery-1.12.3.js
+[pid: 32580|app: 0|req: 51/51] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:26 2018] GET /meilihui/static/js/jquery-1.12.3.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.cookie.js
+[pid: 32580|app: 0|req: 52/52] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:26 2018] GET /meilihui/static/js/jquery.cookie.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/login.js
+[pid: 32580|app: 0|req: 53/53] 27.38.114.139 () {42 vars in 798 bytes} [Sun Nov 11 22:31:26 2018] GET /meilihui/static/js/%E7%99%BB%E5%BD%95.js => generated 4623 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.idcode.js
+[pid: 32580|app: 0|req: 54/54] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:26 2018] GET /meilihui/static/js/jquery.idcode.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/mei.png
+[pid: 32580|app: 0|req: 55/55] 27.38.114.139 () {42 vars in 812 bytes} [Sun Nov 11 22:31:27 2018] GET /meilihui/static/img/mei.png => generated 4608 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/love.png
+[pid: 32580|app: 0|req: 56/56] 27.38.114.139 () {38 vars in 597 bytes} [Sun Nov 11 22:31:27 2018] GET /meilihui/static/img/love.png => generated 4611 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/saomiao.jpg
+[pid: 32580|app: 0|req: 57/57] 27.38.114.139 () {42 vars in 820 bytes} [Sun Nov 11 22:31:27 2018] GET /meilihui/static/img/saomiao.jpg => generated 4620 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 32580|app: 0|req: 58/58] 27.38.114.139 () {38 vars in 563 bytes} [Sun Nov 11 22:31:27 2018] GET /favicon.ico => generated 2075 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 59/59] 27.38.114.139 () {42 vars in 769 bytes} [Sun Nov 11 22:31:27 2018] GET /meilihui/login/ => generated 3174 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/注册-登录页面.css
+[pid: 32580|app: 0|req: 60/60] 27.38.114.139 () {42 vars in 832 bytes} [Sun Nov 11 22:31:27 2018] GET /meilihui/static/css/%E6%B3%A8%E5%86%8C-%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.css => generated 4692 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/jquery.idcode.css
+[pid: 32580|app: 0|req: 61/61] 27.38.114.139 () {42 vars in 784 bytes} [Sun Nov 11 22:31:28 2018] GET /meilihui/static/css/jquery.idcode.css => generated 4638 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery-1.12.3.js
+[pid: 32580|app: 0|req: 62/62] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:28 2018] GET /meilihui/static/js/jquery-1.12.3.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.cookie.js
+[pid: 32580|app: 0|req: 63/63] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:28 2018] GET /meilihui/static/js/jquery.cookie.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/login.js
+[pid: 32580|app: 0|req: 64/64] 27.38.114.139 () {42 vars in 798 bytes} [Sun Nov 11 22:31:28 2018] GET /meilihui/static/js/%E7%99%BB%E5%BD%95.js => generated 4623 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.idcode.js
+[pid: 32580|app: 0|req: 65/65] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:28 2018] GET /meilihui/static/js/jquery.idcode.js => generated 4632 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/mei.png
+[pid: 32580|app: 0|req: 66/66] 27.38.114.139 () {42 vars in 812 bytes} [Sun Nov 11 22:31:28 2018] GET /meilihui/static/img/mei.png => generated 4608 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/saomiao.jpg
+[pid: 32580|app: 0|req: 67/67] 27.38.114.139 () {42 vars in 820 bytes} [Sun Nov 11 22:31:29 2018] GET /meilihui/static/img/saomiao.jpg => generated 4620 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 68/68] 27.38.114.139 () {42 vars in 769 bytes} [Sun Nov 11 22:31:29 2018] GET /meilihui/login/ => generated 3174 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/注册-登录页面.css
+[pid: 32580|app: 0|req: 69/69] 27.38.114.139 () {42 vars in 832 bytes} [Sun Nov 11 22:31:29 2018] GET /meilihui/static/css/%E6%B3%A8%E5%86%8C-%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.css => generated 4692 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/jquery.idcode.css
+[pid: 32580|app: 0|req: 70/70] 27.38.114.139 () {42 vars in 784 bytes} [Sun Nov 11 22:31:29 2018] GET /meilihui/static/css/jquery.idcode.css => generated 4638 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery-1.12.3.js
+[pid: 32580|app: 0|req: 71/71] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:30 2018] GET /meilihui/static/js/jquery-1.12.3.js => generated 4632 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.cookie.js
+[pid: 32580|app: 0|req: 72/72] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:30 2018] GET /meilihui/static/js/jquery.cookie.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/login.js
+[pid: 32580|app: 0|req: 73/73] 27.38.114.139 () {42 vars in 798 bytes} [Sun Nov 11 22:31:30 2018] GET /meilihui/static/js/%E7%99%BB%E5%BD%95.js => generated 4623 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.idcode.js
+[pid: 32580|app: 0|req: 74/74] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:30 2018] GET /meilihui/static/js/jquery.idcode.js => generated 4632 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/mei.png
+[pid: 32580|app: 0|req: 75/75] 27.38.114.139 () {42 vars in 812 bytes} [Sun Nov 11 22:31:30 2018] GET /meilihui/static/img/mei.png => generated 4608 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/saomiao.jpg
+[pid: 32580|app: 0|req: 76/76] 27.38.114.139 () {42 vars in 820 bytes} [Sun Nov 11 22:31:30 2018] GET /meilihui/static/img/saomiao.jpg => generated 4620 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 77/77] 27.38.114.139 () {42 vars in 769 bytes} [Sun Nov 11 22:31:31 2018] GET /meilihui/login/ => generated 3174 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/注册-登录页面.css
+[pid: 32580|app: 0|req: 78/78] 27.38.114.139 () {42 vars in 832 bytes} [Sun Nov 11 22:31:31 2018] GET /meilihui/static/css/%E6%B3%A8%E5%86%8C-%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.css => generated 4692 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/jquery.idcode.css
+[pid: 32580|app: 0|req: 79/79] 27.38.114.139 () {42 vars in 784 bytes} [Sun Nov 11 22:31:31 2018] GET /meilihui/static/css/jquery.idcode.css => generated 4638 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery-1.12.3.js
+[pid: 32580|app: 0|req: 80/80] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:31 2018] GET /meilihui/static/js/jquery-1.12.3.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.cookie.js
+[pid: 32580|app: 0|req: 81/81] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:32 2018] GET /meilihui/static/js/jquery.cookie.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/login.js
+[pid: 32580|app: 0|req: 82/82] 27.38.114.139 () {42 vars in 798 bytes} [Sun Nov 11 22:31:32 2018] GET /meilihui/static/js/%E7%99%BB%E5%BD%95.js => generated 4623 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.idcode.js
+[pid: 32580|app: 0|req: 83/83] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:32 2018] GET /meilihui/static/js/jquery.idcode.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/mei.png
+[pid: 32580|app: 0|req: 84/84] 27.38.114.139 () {42 vars in 812 bytes} [Sun Nov 11 22:31:32 2018] GET /meilihui/static/img/mei.png => generated 4608 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/saomiao.jpg
+[pid: 32580|app: 0|req: 85/85] 27.38.114.139 () {42 vars in 820 bytes} [Sun Nov 11 22:31:32 2018] GET /meilihui/static/img/saomiao.jpg => generated 4620 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32580|app: 0|req: 86/86] 27.38.114.139 () {42 vars in 769 bytes} [Sun Nov 11 22:31:33 2018] GET /meilihui/login/ => generated 3174 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/注册-登录页面.css
+[pid: 32580|app: 0|req: 87/87] 27.38.114.139 () {42 vars in 832 bytes} [Sun Nov 11 22:31:33 2018] GET /meilihui/static/css/%E6%B3%A8%E5%86%8C-%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.css => generated 4692 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/css/jquery.idcode.css
+[pid: 32580|app: 0|req: 88/88] 27.38.114.139 () {42 vars in 784 bytes} [Sun Nov 11 22:31:34 2018] GET /meilihui/static/css/jquery.idcode.css => generated 4638 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery-1.12.3.js
+[pid: 32580|app: 0|req: 89/89] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:34 2018] GET /meilihui/static/js/jquery-1.12.3.js => generated 4632 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.cookie.js
+[pid: 32580|app: 0|req: 90/90] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:34 2018] GET /meilihui/static/js/jquery.cookie.js => generated 4632 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/login.js
+[pid: 32580|app: 0|req: 91/91] 27.38.114.139 () {42 vars in 798 bytes} [Sun Nov 11 22:31:34 2018] GET /meilihui/static/js/%E7%99%BB%E5%BD%95.js => generated 4623 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/js/jquery.idcode.js
+[pid: 32580|app: 0|req: 92/92] 27.38.114.139 () {42 vars in 800 bytes} [Sun Nov 11 22:31:34 2018] GET /meilihui/static/js/jquery.idcode.js => generated 4632 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/mei.png
+[pid: 32580|app: 0|req: 93/93] 27.38.114.139 () {42 vars in 812 bytes} [Sun Nov 11 22:31:34 2018] GET /meilihui/static/img/mei.png => generated 4608 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /meilihui/static/img/saomiao.jpg
+[pid: 32580|app: 0|req: 94/94] 27.38.114.139 () {42 vars in 820 bytes} [Sun Nov 11 22:31:34 2018] GET /meilihui/static/img/saomiao.jpg => generated 4620 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /login/
+[pid: 32580|app: 0|req: 95/95] 27.38.114.139 () {48 vars in 904 bytes} [Sun Nov 11 22:31:53 2018] POST /login/ => generated 2061 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 96/96] 191.243.52.242 () {32 vars in 454 bytes} [Sun Nov 11 23:40:55 2018] GET / => generated 2027 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 97/97] 178.151.143.70 () {32 vars in 460 bytes} [Mon Nov 12 02:09:27 2018] GET / => generated 2027 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 98/98] 178.93.31.67 () {32 vars in 451 bytes} [Mon Nov 12 02:12:16 2018] GET / => generated 2027 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+[pid: 32580|app: 0|req: 99/99] 178.73.215.171 () {28 vars in 286 bytes} [Mon Nov 12 02:49:39 2018] GET / => generated 55270 bytes in 58 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 100/100] 177.197.100.66 () {32 vars in 453 bytes} [Mon Nov 12 02:54:48 2018] GET / => generated 2027 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 101/101] 141.237.122.208 () {32 vars in 455 bytes} [Mon Nov 12 02:56:15 2018] GET / => generated 2027 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+invalid request block size: 19781 (max 4096)...skip
+Not Found: /
+[pid: 32580|app: 0|req: 102/102] 115.29.223.75 () {28 vars in 296 bytes} [Mon Nov 12 03:38:06 2018] HEAD / => generated 2025 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/filemanager.cfc
+[pid: 32580|app: 0|req: 103/103] 71.6.200.217 () {34 vars in 604 bytes} [Mon Nov 12 05:12:15 2018] GET /cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/filemanager.cfc?method=getfmfiles&returnformat=plain&path=. => generated 2298 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 104/104] 61.222.7.164 () {28 vars in 287 bytes} [Mon Nov 12 05:35:18 2018] GET / => generated 2016 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 105/105] 94.236.199.198 () {32 vars in 453 bytes} [Mon Nov 12 05:47:07 2018] GET / => generated 2027 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 106/106] 31.148.174.116 () {32 vars in 454 bytes} [Mon Nov 12 06:32:50 2018] GET / => generated 2027 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 32580|app: 0|req: 107/107] 60.191.38.77 () {34 vars in 446 bytes} [Mon Nov 12 06:42:44 2018] GET / => generated 2027 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Mon Nov 12 09:51:47 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
